@@ -292,7 +292,7 @@ body {
   /* font-style: normal; */
   /* font-weight: 400; */
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
@@ -622,7 +622,7 @@ body {
   left: 615px;
   top: 1130px;
   background: var(--background-box);
-  border: 1px solid var(--border-color) E;
+  border: 1px solid var(--border-color);
 }
 
 .box-grow {
@@ -678,6 +678,7 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--accent-color-text);
+  text-decoration: none;
 }
 
 .adressm {
@@ -693,6 +694,7 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--footer-text);
+  text-decoration: none;
 }
 .adressm:hover,
 .adressm:focus {
@@ -712,6 +714,7 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--footer-text);
+  text-decoration: none;
 }
 .adresst:hover,
 .adresst:focus {
