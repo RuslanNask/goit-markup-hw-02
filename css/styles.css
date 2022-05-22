@@ -180,93 +180,86 @@ body {
 }
 
 /* фильтр */
-.filter-vse {
+.filter {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background: var(--background-buttom);
+  border-radius: 4px;
+}
+.vse {
   position: absolute;
   cursor: pointer;
   width: 73px;
   height: 38px;
   left: 495px;
   top: 174px;
-  border-radius: 4px;
   box-shadow: var(--box-shadow);
-  color: var(--primary-text-color);
-  background: var(--background-buttom);
 }
-.filter-vse:hover,
-.filter-vse:focus {
+.vse:hover,
+.vse:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
-.filter-vse:active {
+.vse:active {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
-.filter-web {
+.web {
   position: absolute;
   cursor: pointer;
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
-  background: var(--background-buttom);
-  border-radius: 4px;
-  color: var(--primary-text-color);
-  background: var(--background-buttom);
 }
-.filter-web:hover {
+.web:hover {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
-.filter-pril {
+.pril {
   position: absolute;
   cursor: pointer;
   width: 145px;
   height: 38px;
   left: 712px;
   top: 174px;
-  background: var(--background-buttom);
-  border-radius: 4px;
-  color: var(--primary-text-color);
-  background: var(--background-buttom);
 }
-.filter-pril:hover {
+.pril:hover {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
-.filter-diz {
+.diz {
   position: absolute;
   cursor: pointer;
   width: 103px;
   height: 38px;
   left: 865px;
   top: 174px;
-  background: var(--background-buttom);
-  border-radius: 4px;
-  color: var(--primary-text-color);
-  background: var(--background-buttom);
 }
-.filter-diz:hover {
+.diz:hover {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
-.filter-market {
+.market {
   position: absolute;
   cursor: pointer;
   width: 130px;
   height: 38px;
   left: 976px;
   top: 174px;
-  background: var(--background-buttom);
-  border-radius: 4px;
-  color: var(--primary-text-color);
-  background: var(--background-buttom);
 }
-.filter-market:hover {
+.market:hover {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
 
-/* Section або article */
+/* Project  */
 .section-title1 {
   /* position: absolute; */
   width: 322px;
@@ -725,5 +718,3 @@ body {
 .adress:focus {
   color: var(--accent-color);
 }
-
-/* css для index */
