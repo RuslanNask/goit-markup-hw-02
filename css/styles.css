@@ -81,63 +81,49 @@ body {
 }
 
 /* навігація Студия */
-.site-nav1 {
+.site {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.nav1 {
   position: absolute;
   width: 49px;
   height: 16px;
   left: 453px;
   top: 32px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
 }
-.site-nav1:hover,
-.site-nav1:focus {
+.nav1:hover,
+.nav1:focus {
   color: var(--accent-color);
 }
 /* навігація Портфоліо */
-.site-nav2 {
+.nav2 {
   position: absolute;
   width: 77px;
   height: 16px;
   left: 552px;
   top: 32px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
 }
-.site-nav2:hover,
-.site-nav2:focus {
+.nav2:hover,
+.nav2:focus {
   color: var(--accent-color);
 }
 /* навігація Контакти */
-.site-nav3 {
+.nav3 {
   position: absolute;
   width: 68px;
   height: 16px;
   left: 679px;
   top: 32px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
 }
-.site-nav3:hover,
-.site-nav3:focus {
+.nav3:hover,
+.nav3:focus {
   color: var(--accent-color);
 }
 

@@ -20,6 +20,7 @@
   --accent-color-text: #ffffff;
   --background-header: #ffffff;
   --background-efect: #2F303A;
+  --background-ourteam-color: #F5F4FA;
   --line-header: #ececec;
   --background-buttom: #f5f4fa;
   --background-buttom-accent: #2196f3;
@@ -38,21 +39,29 @@
 } */
 
 body {
+  position: relative;
+  width: 1600px;
+  height: 2349px;
   background-color: var(--background-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', 'Raleway', sans-serif;
   letter-spacing: 0.03em;
 }
-
 .page-header {
-  /* position: absolute; */
+  position: absolute;
   width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
   background: var(--background-header);
 }
+/* логотип WebStudio */
 .logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -70,7 +79,7 @@ body {
   list-style: none;
 }
 /* навігація Студия */
-.site-nav1 {
+.site{  
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -78,44 +87,44 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  text-decoration: none;
+  text-decoration: none;}
+.nav1 {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
 }
-.site-nav1:hover,
+.nav1:hover,
 :focus {
   color: var(--accent-color);
 }
 /* навігація Портфоліо */
-.site-nav2 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
+.nav2 {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
 }
-.site-nav2:hover,
+.nav2:hover,
 :focus {
   color: var(--accent-color);
 }
 /* навігація Контакти */
-.site-nav3 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
+.nav3 {
+position: absolute;
+width: 68px;
+height: 16px;
+left: 679px;
+top: 32px;
 }
-.site-nav3:hover,
+.nav3:hover,
 :focus {
   color: var(--accent-color);
 }
 /* мейл і тел */
-.autor-navm {
+.autor{ 
   cursor: pointer;
   font-family: 'Roboto';
   font-style: normal;
@@ -125,26 +134,45 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-.autor-navm:hover,
+.navm {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
+.navm:hover,
 :focus {
   color: var(--accent-color);
 }
 
-.autor-navt {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
+.navt {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
 }
-.autor-navt:hover,
+.navt:hover,
 :focus {
   color: var(--accent-color);
 }
 /* ефективне рішення */
 .efect {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: var(--background-efect);
+}
+
+.texth1{ 
+  /* position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -154,18 +182,25 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-color-text);
-  background-color: var(--background-efect);
 }
+
 /* кнопка */
 .button{
-color: var(--accent-color-text);
-background: var(--background-buttom-accent);
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  color: var(--accent-color-text);
+  background: var(--background-buttom-accent);
 }
 .button.primary{color:var(--primary-text-color);
   background-color: var(--background-buttom);  
 }
 /* особливості */
-.title-vnim {font-family: 'Roboto';
+.title{font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -174,82 +209,104 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-text-color);
 }
-.title .text1,.title .text2 {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
+.vnim {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
 }
-.title-punkt {font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-text-color);
+.punkt {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
 }
-/* .title .text2{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
-} */
-.title-plan {font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-text-color);
+.plan {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
 }
-.title .text3,.title .text4{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
+.tech {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 774px;
 }
-.title-tech {font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-text-color);
+.text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
-/* .title .text4{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
-} */
+.p1{
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+}
+.p2{
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
+}
+
+.p3{
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
+}
+
+.p4{
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;}
 
 /* чим ми займаємося */
-.chem{font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.chem{
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 /* наша команда */
+.ourteam{
+/* position: absolute; */
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+background: var(--background-ourteam-color);
+}
 .team{
+/* position: absolute; */
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1543px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -259,16 +316,47 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
-.teamname1,.teamname2 {font-family: 'Roboto';
+.comand{
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.119;
+line-height: 1.12;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
-.textteam1,.textteam2 {font-family: 'Roboto';
+.name1 {
+position: absolute;
+width: 151px;
+height: 19px;
+left: 275px;
+top: 1925px;
+}
+.name2{
+position: absolute;
+width: 109px;
+height: 19px;
+left: 596px;
+top: 1925px;
+}
+.name3{
+position: absolute;
+width: 137px;
+height: 19px;
+left: 882px;
+top: 1925px;
+}
+.name4{
+position: absolute;
+width: 134px;
+height: 19px;
+left: 1183px;
+top: 1925px;
+}
+
+.item{
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -277,63 +365,38 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--second-text-color);
 }
-/* .teamname2 {font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
-} */
-/* .textteam2 {font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
-} */
-.teamname3,.teamname4 {font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.team1{
+position: absolute;
+width: 130px;
+height: 19px;
+left: 285px;
+top: 1954px;
 }
-.textteam3,.textteam4 {font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
+.team2{
+position: absolute;
+width: 147px;
+height: 19px;
+left: 577px;
+top: 1954px;
 }
-/* .teamname4 {font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
-} */
-.textteam4 {font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
+.team3{
+position: absolute;
+width: 76px;
+height: 19px;
+left: 912px;
+top: 1954px;
 }
+.team4{
+position: absolute;
+width: 87px;
+height: 19px;
+left: 1207px;
+top: 1954px;
+}
+
 /* подвал */
 .footer{
-/* position: absolute; */
+position: absolute;
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -344,6 +407,11 @@ background: var(--footerbackground-color);
   color: var(--footer-text-color);
 }
 .logof{
+/* position: absolute; */
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2157px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -353,30 +421,38 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 text-decoration: none;
 }
-.adress {font-family: 'Roboto';
+.adress {
+/* position: absolute; */
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2208px;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--accent-color-text);
+color: var(--footer-text-color);
 text-decoration: none;
 }
-.adresm {font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+.adress:hover,:focus{color: var(--accent-color);}
+
+.mail {
+/* position: absolute; */
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2238px;
 color: var(--footer-text);
 text-decoration: none;
 }
-.adrest {font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+.tel {
+/* position: absolute; */
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2268px;
 color: var(--footer-text);
 text-decoration: none;
 }
