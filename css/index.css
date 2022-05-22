@@ -1,0 +1,382 @@
+/* Палітра кольорів */
+/* основний колір тексту #212121; */
+/* додатковий колір тексту #757575; */
+/* акцент #2196F3; */
+/* background-header: #F5F4FA; */
+/* background-efect: #2F303A; */
+/* line-header: #ECECEC; */
+/* box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15)
+/* фон #FFFFFF; */
+/* фон кнопок фільтрів #F5F4FA; */
+/* background-box #FFFFFF; */
+/* border-color #EEEEEE; */
+/* фон футора #2F303A; */
+/* footer-text rgba(255, 255, 255, 0.6); */
+
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --accent-color-text: #ffffff;
+  --background-header: #ffffff;
+  --background-efect: #2F303A;
+  --line-header: #ececec;
+  --background-buttom: #f5f4fa;
+  --background-buttom-accent: #2196f3;
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
+  --background-color: #ffffff;
+  --background-box: #ffffff;
+  --border-color: #eeeeee;
+  --footerbackground-color: #2f303a;
+  --footer-text: rgba(255, 255, 255, 0.6);
+  --footer-text-color: #FFFFFF;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.page-header {
+  /* position: absolute; */
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: var(--background-header);
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logoweb {
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+/* навігація Студия */
+.site-nav1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-nav1:hover,
+:focus {
+  color: var(--accent-color);
+}
+/* навігація Портфоліо */
+.site-nav2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-nav2:hover,
+:focus {
+  color: var(--accent-color);
+}
+/* навігація Контакти */
+.site-nav3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-nav3:hover,
+:focus {
+  color: var(--accent-color);
+}
+/* мейл і тел */
+.autor-navm {
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.autor-navm:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.autor-navt {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.autor-navt:hover,
+:focus {
+  color: var(--accent-color);
+}
+/* ефективне рішення */
+.efect {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color-text);
+  background-color: var(--background-efect);
+}
+/* кнопка */
+.button{
+color: var(--accent-color-text);
+background: var(--background-buttom-accent);
+}
+.button.primary{color:var(--primary-text-color);
+  background-color: var(--background-buttom);  
+}
+/* особливості */
+.title-vnim {font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
+.title .text1,.title .text2 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+.title-punkt {font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
+/* .title .text2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+} */
+.title-plan {font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
+.title .text3,.title .text4{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+.title-tech {font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
+/* .title .text4{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+} */
+
+/* чим ми займаємося */
+.chem{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+/* наша команда */
+.team{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.teamname1,.teamname2 {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.119;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.textteam1,.textteam2 {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+/* .teamname2 {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+} */
+/* .textteam2 {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+} */
+.teamname3,.teamname4 {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.textteam3,.textteam4 {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+/* .teamname4 {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+} */
+.textteam4 {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+/* подвал */
+.footer{
+/* position: absolute; */
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: var(--footerbackground-color);
+}
+.logof-web{
+  color: var(--footer-text-color);
+}
+.logof{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+text-decoration: none;
+}
+.adress {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--accent-color-text);
+text-decoration: none;
+}
+.adresm {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--footer-text);
+text-decoration: none;
+}
+.adrest {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--footer-text);
+text-decoration: none;
+}
