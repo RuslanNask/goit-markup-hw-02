@@ -38,7 +38,9 @@ body {
   height: 1880px;
   color: var(--primary-text-color);
   background: var(--background-color);
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .page-header {
@@ -51,7 +53,8 @@ body {
   border: 1px solid var(--line-header);
 }
 
-.list {
+.list,
+a {
   list-style: none;
   text-decoration: none;
 }
@@ -242,7 +245,7 @@ body {
 }
 
 /* project  */
-.sectionh {
+.project .title1 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -251,10 +254,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
-.sectionp {
+.project .title2 {
   font-family: 'Roboto';
-  /* font-style: normal; */
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -510,10 +511,7 @@ body {
   height: 21px;
   left: 215px;
   top: 1739px;
-  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--accent-color-text);

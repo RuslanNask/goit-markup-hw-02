@@ -25,6 +25,7 @@
   --background-buttom: #f5f4fa;
   --background-buttom-accent: #2196f3;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
+  --box-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --background-color: #ffffff;
   --background-box: #ffffff;
   --border-color: #eeeeee;
@@ -39,29 +40,17 @@
 } */
 
 body {
-  position: relative;
-  width: 1600px;
-  height: 2349px;
   background-color: var(--background-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 .page-header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
   background: var(--background-header);
 }
 /* логотип WebStudio */
 .logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -75,50 +64,47 @@ body {
   color: var(--primary-text-color);
 }
 
-.list {
-  list-style: none;
-}
+ul {list-style: none;}
+a{text-decoration: none;}
 /* навігація Студия */
 .site{  
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;}
-.nav1 {
+/* .nav1 {
   position: absolute;
   width: 49px;
   height: 16px;
   left: 453px;
   top: 32px;
-}
+} */
 .nav1:hover,
 :focus {
   color: var(--accent-color);
 }
 /* навігація Портфоліо */
-.nav2 {
+/* .nav2 {
   position: absolute;
   width: 77px;
   height: 16px;
   left: 552px;
   top: 32px;
-}
+} */
 .nav2:hover,
 :focus {
   color: var(--accent-color);
 }
 /* навігація Контакти */
-.nav3 {
+/* .nav3 {
 position: absolute;
 width: 68px;
 height: 16px;
 left: 679px;
 top: 32px;
-}
+} */
 .nav3:hover,
 :focus {
   color: var(--accent-color);
@@ -168,8 +154,8 @@ top: 32px;
 }
 
 .texth1{ 
-  /* position: absolute;
-  width: 696px;
+  /* position: absolute; */
+  /* width: 696px;
   height: 120px;
   left: 452px;
   top: 280px; */
@@ -292,9 +278,32 @@ color: var(--primary-text-color);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.working1{
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+mix-blend-mode: normal;
+}
+.working2{
+position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+}
+.working3{
+position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;
+}
+
 /* наша команда */
 .ourteam{
-/* position: absolute; */
+position: absolute;
 width: 1600px;
 height: 648px;
 left: 0px;
@@ -353,6 +362,11 @@ width: 134px;
 height: 19px;
 left: 1183px;
 top: 1925px;
+}
+.team-list>li{
+background: #FFFFFF;
+box-shadow:var(--);
+border-radius: 0px 0px 4px 4px;
 }
 
 .item{
