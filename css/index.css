@@ -19,25 +19,26 @@
   --accent-color: #2196f3;
   --accent-color-text: #ffffff;
   --background-header: #ffffff;
-  --background-efect: #2F303A;
-  --background-ourteam-color: #F5F4FA;
+  --background-efect: #2f303a;
+  --background-ourteam-color: #f5f4fa;
   --line-header: #ececec;
   --background-buttom: #f5f4fa;
   --background-buttom-accent: #2196f3;
-  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
-  --box-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --box-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   --background-color: #ffffff;
   --background-box: #ffffff;
   --border-color: #eeeeee;
   --footerbackground-color: #2f303a;
   --footer-text: rgba(255, 255, 255, 0.6);
-  --footer-text-color: #FFFFFF;
+  --footer-text-color: #ffffff;
 }
 
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
 
 body {
   background-color: var(--background-color);
@@ -64,16 +65,21 @@ body {
   color: var(--primary-text-color);
 }
 
-ul {list-style: none;}
-a{text-decoration: none;}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 /* навігація Студия */
-.site{  
+.site {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  text-decoration: none;}
+  text-decoration: none;
+}
 /* .nav1 {
   position: absolute;
   width: 49px;
@@ -110,7 +116,7 @@ top: 32px;
   color: var(--accent-color);
 }
 /* мейл і тел */
-.autor{ 
+.autor {
   cursor: pointer;
   font-family: 'Roboto';
   font-style: normal;
@@ -145,20 +151,10 @@ top: 32px;
 }
 /* ефективне рішення */
 .efect {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background-color: var(--background-efect);
 }
 
-.texth1{ 
-  /* position: absolute; */
-  /* width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px; */
+.texth1 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -171,57 +167,54 @@ top: 32px;
 }
 
 /* кнопка */
-.button{
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+.button {
   box-shadow: var(--box-shadow);
   border-radius: 4px;
   color: var(--accent-color-text);
   background: var(--background-buttom-accent);
 }
-.button.primary{color:var(--primary-text-color);
-  background-color: var(--background-buttom);  
+.button.primary {
+  color: var(--primary-text-color);
+  background-color: var(--background-buttom);
 }
 /* особливості */
-.title{font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-text-color);
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
 }
 .vnim {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 16px;
   left: 215px;
-  top: 774px;
+  top: 774px; */
 }
 .punkt {
-  position: absolute;
+  /* position:absolute;
   width: 270px;
   height: 16px;
   left: 515px;
-  top: 774px;
+  top: 774px; */
 }
 .plan {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 16px;
   left: 815px;
-  top: 774px;
+  top: 774px; */
 }
 .tech {
-  position: absolute;
+  /* position: absolute;
   width: 270px;
   height: 16px;
   left: 1115px;
-  top: 774px;
+  top: 774px; */
 }
 .text {
   font-family: 'Roboto';
@@ -232,43 +225,44 @@ color: var(--primary-text-color);
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.p1{
-  position: absolute;
+.item1 {
+  /* position: absolute;
   width: 270px;
   height: 75px;
   left: 215px;
-  top: 800px;
+  top: 800px; */
 }
-.p2{
-  position: absolute;
+.item2 {
+  /* position:absolute;
   width: 270px;
   height: 75px;
   left: 515px;
-  top: 800px;
+  top: 800px; */
 }
 
-.p3{
-  position: absolute;
+.item3 {
+  /* position: absolute;
   width: 270px;
   height: 75px;
   left: 815px;
-  top: 800px;
+  top: 800px; */
 }
 
-.p4{
-  position: absolute;
+.item4 {
+  /* position: absolute;
   width: 270px;
   height: 75px;
   left: 1115px;
-  top: 800px;}
+  top: 800px; */
+}
 
 /* чим ми займаємося */
-.chem{
-  position: absolute;
+.chem {
+  /* position: absolute;
   width: 376px;
   height: 42px;
   left: 612px;
-  top: 969px;
+  top: 969px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -278,195 +272,129 @@ color: var(--primary-text-color);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.working1{
-position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
-mix-blend-mode: normal;
+.working1 {
+  /* position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+  mix-blend-mode: normal; */
 }
-.working2{
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
+.working2 {
+  /* position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px; */
 }
-.working3{
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;
+.working3 {
+  /* position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px; */
 }
 
 /* наша команда */
-.ourteam{
-position: absolute;
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1449px;
-background: var(--background-ourteam-color);
+.ourteam {
+  /* position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px; */
+  background: var(--background-ourteam-color);
 }
-.team{
-/* position: absolute; */
-width: 264px;
-height: 42px;
-left: 668px;
-top: 1543px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.team-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
-.comand{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.12;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
-}
-.name1 {
-position: absolute;
-width: 151px;
-height: 19px;
-left: 275px;
-top: 1925px;
-}
-.name2{
-position: absolute;
-width: 109px;
-height: 19px;
-left: 596px;
-top: 1925px;
-}
-.name3{
-position: absolute;
-width: 137px;
-height: 19px;
-left: 882px;
-top: 1925px;
-}
-.name4{
-position: absolute;
-width: 134px;
-height: 19px;
-left: 1183px;
-top: 1925px;
-}
-.team-list>li{
-background: #FFFFFF;
-box-shadow:var(--);
-border-radius: 0px 0px 4px 4px;
+.title1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.12;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
-.item{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--second-text-color);
-}
-.team1{
-position: absolute;
-width: 130px;
-height: 19px;
-left: 285px;
-top: 1954px;
-}
-.team2{
-position: absolute;
-width: 147px;
-height: 19px;
-left: 577px;
-top: 1954px;
-}
-.team3{
-position: absolute;
-width: 76px;
-height: 19px;
-left: 912px;
-top: 1954px;
-}
-.team4{
-position: absolute;
-width: 87px;
-height: 19px;
-left: 1207px;
-top: 1954px;
+.title2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 
 /* подвал */
-.footer{
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-background: var(--footerbackground-color);
+.footer {
+  /* position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px; */
+  background: var(--footerbackground-color);
 }
-.logof-web{
+.logof-web {
   color: var(--footer-text-color);
 }
-.logof{
-/* position: absolute; */
-width: 145px;
-height: 31px;
-left: 215px;
-top: 2157px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--accent-color);
-text-decoration: none;
+.logof {
+  /* position:absolute;
+  /* width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px; */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .adress {
-/* position: absolute; */
-width: 231px;
+  /* position: absolute; */
+  /* width: 231px;
 height: 21px;
 left: 215px;
-top: 2208px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--footer-text-color);
-text-decoration: none;
+top: 2208px; */
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
+  text-decoration: none;
 }
-.adress:hover,:focus{color: var(--accent-color);}
+.adress:hover,
+:focus {
+  color: var(--accent-color);
+}
 
 .mail {
-/* position: absolute; */
-width: 231px;
+  /* position: absolute; */
+  /* width: 231px;
 height: 21px;
 left: 215px;
-top: 2238px;
-color: var(--footer-text);
-text-decoration: none;
+top: 2238px; */
+  color: var(--footer-text);
+  text-decoration: none;
 }
 .tel {
-/* position: absolute; */
-width: 231px;
+  /* position: absolute; */
+  /* width: 231px;
 height: 21px;
 left: 215px;
-top: 2268px;
-color: var(--footer-text);
-text-decoration: none;
+top: 2268px; */
+  color: var(--footer-text);
+  text-decoration: none;
 }

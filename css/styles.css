@@ -33,20 +33,15 @@
 }
 
 body {
-  position: relative;
-  width: 1600px;
-  height: 1880px;
   color: var(--primary-text-color);
   background: var(--background-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  font-style: normal;
   letter-spacing: 0.03em;
 }
 
 .page-header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
   left: 0px;
   top: 0px;
   background: var(--background-header);
@@ -74,7 +69,6 @@ a {
   left: 215px;
   top: 24px;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -256,156 +250,12 @@ a {
 }
 .project .title2 {
   font-family: 'Roboto';
+  font-style: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-
-.title1 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 239px;
-  top: 576px;
-}
-
-.title2 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 239px;
-  top: 616px;
-}
-
-.title3 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 639px;
-  top: 576px;
-}
-
-.title4 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 639px;
-  top: 616px;
-}
-
-.title5 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 1039px;
-  top: 576px;
-}
-
-.title6 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 1039px;
-  top: 616px;
-}
-
-.title7 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 239px;
-  top: 1010px;
-}
-
-.title8 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 239px;
-  top: 1050px;
-}
-
-.title9 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 639px;
-  top: 1010px;
-}
-
-.title10 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 639px;
-  top: 1050px;
-}
-
-.title11 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 1039px;
-  top: 1010px;
-}
-
-.-title12 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 1039px;
-  top: 1050px;
-}
-
-.title13 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 239px;
-  top: 1444px;
-}
-
-.title14 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 239px;
-  top: 1484px;
-}
-
-.title15 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 639px;
-  top: 1444px;
-}
-
-.title16 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 639px;
-  top: 1484px;
-}
-
-.title17 {
-  /* position: absolute; */
-  width: 322px;
-  height: 36px;
-  left: 1039px;
-  top: 1444px;
-}
-
-.title18 {
-  /* position: absolute; */
-  width: 322px;
-  height: 30px;
-  left: 1039px;
-  top: 1484px;
-}
-
 .box {
   box-sizing: border-box;
   position: absolute;
