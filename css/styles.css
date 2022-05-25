@@ -1,35 +1,48 @@
 /* Палітра кольорів */
-/* основний колір тексту #212121; */
-/* додатковий колір тексту #757575; */
-/* акцент #2196F3; */
-/* background-header: #F5F4FA; */
-/* line-header: #ECECEC; */
-/* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-0px 1px 2px rgba(0, 0, 0, 0.08),
-0px 2px 2px rgba(0, 0, 0, 0.12); */
-/* фон #FFFFFF; */
-/* фон кнопок фільтрів #F5F4FA; */
-/* background-box #FFFFFF; */
-/* border-color #EEEEEE; */
-/* фон футора #2F303A; */
-/* footer-text rgba(255, 255, 255, 0.6); */
+/* primary-text-color: #212121;
+    second-text-color: #757575;
+    accent-color: #2196f3;
+    accent-color-text: #ffffff;
+    background-header: #ffffff;
+    background-efect: #2f303a;
+    background-ourteam-color: #f5f4fa;
+    line-header: #ececec;
+    background-buttom: #f5f4fa;
+    background-buttom-accent: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow-buttom-studio: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    background-box: #ffffff;
+    border-color: #eeeeee;
+    footerbackground-color: #2f303a;
+    footer-text: rgba(255, 255, 255, 0.6);
+    footer-text-color: #ffffff; */
 
 :root {
   --primary-text-color: #212121;
   --second-text-color: #757575;
   --accent-color: #2196f3;
-  --box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   --accent-color-text: #ffffff;
   --background-header: #ffffff;
+  --background-efect: #2f303a;
+  --background-ourteam-color: #f5f4fa;
   --line-header: #ececec;
-  --background-buttom: #f4faf5;
+  --background-buttom: #f5f4fa;
   --background-buttom-accent: #2196f3;
+  --box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  --box-shadow-buttom-studio: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --box-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   --background-color: #ffffff;
   --background-box: #ffffff;
   --border-color: #eeeeee;
   --footerbackground-color: #2f303a;
   --footer-text: rgba(255, 255, 255, 0.6);
+  --footer-text-color: #ffffff;
 }
 
 body {
@@ -41,15 +54,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.page-header {
-  left: 0px;
-  top: 0px;
+.header {
   background: var(--background-header);
-  border: 1px solid var(--line-header);
 }
-
 .list,
 a {
+  font-style: normal;
   list-style: none;
   text-decoration: none;
 }
@@ -59,125 +69,59 @@ a {
 }
 
 /* логотип WebStudio */
-.logoweb {
-  color: var(--primary-text-color);
-}
-.logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
+.header-logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
-  text-decoration: none;
+}
+.header-logoblack {
+  color: var(--primary-text-color);
 }
 
 /* навігація Студия */
-.site {
-  font-family: 'Roboto';
-  font-style: normal;
+.header-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  text-decoration: none;
 }
-.nav1 {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-}
-.nav1:hover,
-.nav1:focus {
+.header-link:hover,
+:focus {
   color: var(--accent-color);
 }
 /* навігація Портфоліо */
-.nav2 {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-}
-.nav2:hover,
-.nav2:focus {
-  color: var(--accent-color);
-}
+
 /* навігація Контакти */
-.nav3 {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-}
-.nav3:hover,
-.nav3:focus {
-  color: var(--accent-color);
-}
 
 /* мейл і тел */
-.autor {
-  font-family: 'Roboto';
-  font-style: normal;
+.headermail,
+.headertel {
+  cursor: pointer;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-.navm {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-}
-.navm:hover,
-.navm:focus {
-  color: var(--accent-color);
-}
-
-.navt {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-}
-.navt:hover,
-.navt:focus {
+.header-item > a:hover,
+:focus {
   color: var(--accent-color);
 }
 
 /* фильтр */
 .filter {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
+  cursor: pointer;
   color: var(--primary-text-color);
   background: var(--background-buttom);
   border-radius: 4px;
 }
 .vse {
-  position: absolute;
   cursor: pointer;
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 174px;
   box-shadow: var(--box-shadow);
 }
 .vse:hover,
@@ -190,212 +134,161 @@ a {
   background-color: var(--background-buttom-accent);
 }
 .web {
-  position: absolute;
   cursor: pointer;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
 }
-.web:hover {
+.web:hover,
+:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
 .pril {
-  position: absolute;
   cursor: pointer;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
 }
-.pril:hover {
+.pril:hover,
+:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
 .diz {
-  position: absolute;
   cursor: pointer;
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 174px;
 }
-.diz:hover {
+.diz:hover,
+:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
 .market {
-  position: absolute;
   cursor: pointer;
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
 }
-.market:hover {
+.market:hover,
+:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
 
 /* project  */
-.project .title1 {
-  font-family: 'Roboto';
-  font-style: normal;
+.project-big {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
-.project .title2 {
-  font-family: 'Roboto';
-  font-style: normal;
+.project-small {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 .box {
   box-sizing: border-box;
-  position: absolute;
   background: var(--background-box);
   border: 1px solid var(--border-color);
 }
 
-.techno {
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
-}
-
-.poster {
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 262px;
-}
-
-.seafood {
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 262px;
-}
-
-.prime {
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 696px;
-}
-
-.boxes {
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 696px;
-}
-
-.inspir {
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 696px;
-}
-
-.limed {
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 1130px;
-}
-
-.lab {
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 1130px;
-}
-
-.grow {
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 1130px;
-}
-
 /* підвал */
 .footer {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
   background: var(--footerbackground-color);
 }
-
-.logof-web {
-  color: var(--accent-color-text);
-}
-.logof {
-  /* position: absolute; */
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 1688px;
+.footer-logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
-  text-decoration: none;
 }
-
-.adress {
-  /* position: absolute; */
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 1739px;
-  font-style: normal;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+.footer-logowhite {
   color: var(--accent-color-text);
-  text-decoration: none;
-}
-.adress:hover,
-.adress:focus {
-  color: var(--accent-color);
 }
 
+.footer-streat {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
+}
+.footer-item > a:hover,
+:focus {
+  color: var(--accent-color);
+}
 .mail {
-  /* position: absolute; */
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 1769px;
+  letter-spacing: 0.03em;
   color: var(--footer-text);
   text-decoration: none;
 }
-.mail:hover,
-.mail:focus {
-  color: var(--accent-color);
+.tel {
+  letter-spacing: 0.03em;
+  color: var(--footer-text);
 }
 
-.tel {
-  /* position: absolute; */
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 1799px;
-  color: var(--footer-text);
-  text-decoration: none;
+/* css index */
+
+/* ефективне рішення */
+.efect {
+  background-color: var(--background-efect);
 }
-.tel:hover,
-.tel:focus {
-  color: var(--accent-color);
+.texth1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color-text);
+}
+/* кнопка */
+.button-zakaz {
+  box-shadow: var(--box-shadow-buttom-studio);
+  border-radius: 4px;
+  color: var(--accent-color-text);
+  background: var(--background-buttom-accent);
+}
+.button.primary {
+  color: var(--primary-text-color);
+  background-color: var(--background-buttom);
+}
+/* особливості */
+.special-big {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+/* застосовано іншу специфічність css */
+.special .small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-text-color);
+}
+
+/* чим ми займаємося */
+.chem-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+
+/* наша команда */
+.ourteam {
+  background: var(--background-ourteam-color);
+}
+.ourteam-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+.teamtext-big {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.12;
+  color: var(--primary-text-color);
+}
+
+.teamtext-small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--second-text-color);
 }
