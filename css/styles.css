@@ -87,12 +87,10 @@ a {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.header-link:hover,
-:focus {
+/* навігація Портфоліо */
+.header-list .current {
   color: var(--accent-color);
 }
-/* навігація Портфоліо */
-
 /* навігація Контакти */
 
 /* мейл і тел */
@@ -121,6 +119,8 @@ a {
   border-radius: 4px;
 }
 .vse {
+  color: var(--accent-color-text);
+  background-color: var(--background-buttom-accent);
   cursor: pointer;
   box-shadow: var(--box-shadow);
 }
@@ -137,7 +137,7 @@ a {
   cursor: pointer;
 }
 .web:hover,
-:focus {
+.web:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
@@ -145,7 +145,7 @@ a {
   cursor: pointer;
 }
 .pril:hover,
-:focus {
+.pril:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
@@ -153,7 +153,7 @@ a {
   cursor: pointer;
 }
 .diz:hover,
-:focus {
+.diz:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
@@ -161,7 +161,7 @@ a {
   cursor: pointer;
 }
 .market:hover,
-:focus {
+.market:focus {
   color: var(--accent-color-text);
   background-color: var(--background-buttom-accent);
 }
