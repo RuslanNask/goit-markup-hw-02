@@ -81,17 +81,20 @@ a {
 }
 
 /* навігація Студия */
-.header-link {
+.headerlink {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-/* навігація Портфоліо */
-.header-list .current {
+
+.header-nav .headerlink.current {
   color: var(--accent-color);
 }
-/* навігація Контакти */
+.header-nav .headerlink:hover,
+.header-nav .headerlink:focus {
+  color: var(--accent-color);
+}
 
 /* мейл і тел */
 .headermail,
@@ -102,8 +105,13 @@ a {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-.header-item > a:hover,
-.header-item > a:focus {
+
+.headermail:hover,
+.headermail:focus {
+  color: var(--accent-color);
+}
+.headertel:hover,
+.headertel:focus {
   color: var(--accent-color);
 }
 
