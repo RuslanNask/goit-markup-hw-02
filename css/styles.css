@@ -103,7 +103,7 @@ a {
   color: var(--second-text-color);
 }
 .header-item > a:hover,
-:focus {
+.header-item > a:focus {
   color: var(--accent-color);
 }
 
@@ -206,17 +206,14 @@ a {
   color: var(--footer-text-color);
 }
 .footer-item > a:hover,
-:focus {
+.footer-item > a:focus {
   color: var(--accent-color);
 }
-.mail {
+.footermail-link,
+.footertel-link {
   letter-spacing: 0.03em;
   color: var(--footer-text);
   text-decoration: none;
-}
-.tel {
-  letter-spacing: 0.03em;
-  color: var(--footer-text);
 }
 
 /* css index */
