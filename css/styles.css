@@ -32,6 +32,7 @@
   --line-header: #ececec;
   --background-buttom: #f5f4fa;
   --background-buttom-accent: #2196f3;
+  --background-buttom-zakaz-hover: #188ce8;
   --box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   --box-shadow-buttom-studio: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -252,9 +253,10 @@ a {
   color: var(--accent-color-text);
   background: var(--background-buttom-accent);
 }
-.button.primary {
-  color: var(--primary-text-color);
-  background-color: var(--background-buttom);
+.button-zakaz:hover,
+.button-zakaz:focus {
+  color: var(--accent-color-text);
+  background-color: var(--background-buttom-zakaz-hover);
 }
 /* особливості */
 .special-big {
