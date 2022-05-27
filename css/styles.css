@@ -39,6 +39,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   --background-color: #ffffff;
   --background-box: #ffffff;
+  --background-img-team: #ffffff;
   --border-color: #eeeeee;
   --footerbackground-color: #2f303a;
   --footer-text: rgba(255, 255, 255, 0.6);
@@ -117,6 +118,7 @@ a {
 
 /* фильтр */
 .filter {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -241,6 +243,7 @@ a {
 }
 /* кнопка */
 .button-zakaz {
+  font-family: inherit;
   box-shadow: var(--box-shadow-buttom-studio);
   border-radius: 4px;
   color: var(--accent-color-text);
@@ -289,6 +292,7 @@ a {
   font-size: 16px;
   line-height: 1.12;
   color: var(--primary-text-color);
+  background-color: var(--background-img-team);
 }
 
 .teamtext-small {
@@ -296,4 +300,5 @@ a {
   font-size: 16px;
   line-height: 1.19;
   color: var(--second-text-color);
+  background-color: var(--background-img-team);
 }
