@@ -209,6 +209,9 @@ a {
 .footer-logowhite {
   color: var(--accent-color-text);
 }
+.footer-address {
+  font-style: inherit;
+}
 
 .footer-streat {
   line-height: 1.71;
