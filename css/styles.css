@@ -281,6 +281,9 @@ a {
 .ourteam {
   background: var(--background-ourteam-color);
 }
+.team-item {
+  background-color: var(--background-img-team);
+}
 .ourteam-text {
   font-weight: 700;
   font-size: 36px;
@@ -292,7 +295,6 @@ a {
   font-size: 16px;
   line-height: 1.12;
   color: var(--primary-text-color);
-  background-color: var(--background-img-team);
 }
 
 .teamtext-small {
@@ -300,5 +302,4 @@ a {
   font-size: 16px;
   line-height: 1.19;
   color: var(--second-text-color);
-  background-color: var(--background-img-team);
 }
